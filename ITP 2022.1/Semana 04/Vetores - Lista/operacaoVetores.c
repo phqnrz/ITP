@@ -20,17 +20,14 @@ int main(void)
     }
 
     printf("A = [");
-    for (i = 0; i < 3; i++)
-    {
+    for (i = 0; i < 3; i++) {
         vetorA[i] = (vetorB[i] + vetorC[i] - (vetorD[i] * 5));
         printf("%d", vetorA[i]);
 
-        if (i == 2)
-        {
+        if (i == 2) {
             break;
         }
-        else
-        {
+        else {
             printf(",");
         }
     }
