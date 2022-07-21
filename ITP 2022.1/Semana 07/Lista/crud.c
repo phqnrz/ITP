@@ -49,6 +49,7 @@ int main(void) {
     pessoa input, *novasPessoas;
     int qtd_pessoas = 1, i = 0;
     pessoa *pessoas = malloc(sizeof(pessoa) * qtd_pessoas);
+    
     char funcao = '\0';
     char aux_name[50] = "\0";
     int aux_age;
